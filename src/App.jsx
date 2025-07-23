@@ -4,12 +4,12 @@ import viteLogo from '/vite.svg'
 import './styles/App.css'
 import Navbar from './components/Navbar.jsx'
 import Home from './sections/Home.jsx'
+import Projects from './sections/Projects.jsx'
+import Contact from './sections/Contact.jsx'
 
 function App() {
   return (
     <>
-    <div className="bg-green-500 text-white p-4 text-center">Testing Tailwind</div>
-
       <Navbar />
       <div className="pt-20">
         <section id="home">

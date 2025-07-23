@@ -7,7 +7,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 w-full z-50 bg-white shadow-md">
+    <nav className="fixed top-0 w-full z-50 bg-gray text-white shadow-md border border-red-500">
       <div className="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
         <div
           onClick={() => scrollTo("home")}
